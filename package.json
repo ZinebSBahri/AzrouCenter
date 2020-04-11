@@ -47,5 +47,4 @@
   "optionalDependencies": {
     "typescript": "3.5.3"
   },
-  "proxy": "https://azroucent.herokuapp.com/"
 }

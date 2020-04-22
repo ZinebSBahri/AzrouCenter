@@ -53,7 +53,7 @@ function LoginPage() {
 
         console.log("the obj ==>", objLogin);
         event.preventDefault();
-        fetch('/user/login', {
+        fetch('https://azroucent.herokuapp.com/user/login', {
             method: 'POST',
             body: JSON.stringify({ email: objLogin.email, password: objLogin.password }),
             headers: {

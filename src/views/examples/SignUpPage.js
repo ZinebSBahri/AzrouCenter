@@ -54,7 +54,7 @@ function onSubmito(event){
     
     console.log("the obj ==>",objLogin);
     event.preventDefault();
-    fetch('/user/signup', {
+    fetch('https://azroucent.herokuapp.com/user/signup', {
       method: 'POST',
       body: JSON.stringify({fname:objLogin.fname, lname:objLogin.lname,
         stuId:objLogin.stuId, phoneNum:objLogin.phoneNum,

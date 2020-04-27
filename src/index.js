@@ -31,7 +31,7 @@ import LoginPage from "views/examples/LoginPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import SignUpPage from "views/examples/SignUpPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
-
+import Dashboard from "views/examples/Dashboard.js";
 ReactDOM.render(
     <BrowserRouter>
         <Switch>

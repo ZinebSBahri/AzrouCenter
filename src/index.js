@@ -36,7 +36,7 @@ ReactDOM.render(
     <BrowserRouter>
         <Switch>
             <Switch>
-                <Route path="/index" render={props => <LandingPage {...props} />} />
+               
                 <Route path="/login" component={LoginPage} />
                 <Route
                     path="/nucleo-icons"
@@ -51,6 +51,8 @@ ReactDOM.render(
                     render={props => <ProfilePage {...props} />}
                 />
                 <Route path="/signup" component={SignUpPage} />
+                 <Route path="/me" component={Dashboard} />
+                 <Route path="/" render={props => <LandingPage {...props} />} />
                 
 
 

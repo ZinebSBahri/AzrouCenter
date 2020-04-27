@@ -86,7 +86,7 @@ function onSubmito(event){
 
   return (
     <>
-    {toDash ? <Redirect to = "/index" /> : null}
+    {toDash ? <Redirect to = "/login" /> : null}
       <ExamplesNavbar />
       <div className="page-header clear-filter" filter-color="blue">
         <div
